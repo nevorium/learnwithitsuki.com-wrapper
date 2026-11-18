@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.ItsukiWrapper" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0848AE</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.ItsukiWrapper</item>
+    </style>
+</resources>
